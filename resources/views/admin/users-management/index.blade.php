@@ -36,7 +36,7 @@
                     @empty
                         <strong class="text-center">No Data Found !!</strong>
                     @endforelse
-
+                        {{ $customers->links() }}
                 </tbody>
             </table>
         </div>
